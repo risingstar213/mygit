@@ -1,0 +1,31 @@
+#pragma once
+#include <cstdio>
+#include <cstdlib>
+#include <vector>
+#include <cstring>
+#include <windows.h>
+#include <iostream>
+#include <iomanip>
+#include <string>
+#include <set>
+#include <filesystem>
+#include <sstream>
+#include <cmath>
+#include <algorithm>
+#include <direct.h>
+#include <io.h>
+#include <Python.h>
+#include <time.h>
+#include <map>
+#include "zlib.h"
+#include "zconf.h"
+#include "configuration.h"
+#include "repository.h"
+#include "index.h"
+#include "action.h"
+#include "log.h"
+#include "network.h"
+#include "branches.h"
+#include "merge.h"
+//为节约内存空间，考虑手动实现vector，采用算法导论中的实现
+using namespace std;
